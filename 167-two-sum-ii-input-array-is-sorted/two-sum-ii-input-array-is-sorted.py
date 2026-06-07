@@ -20,5 +20,4 @@ class Solution(object):
 numbers = [2,7,11,15]
 target = 9
 sol = Solution()
-print(sol.twoSum(numbers, target))
-  
+print(sol.twoSum(numbers, target))  
