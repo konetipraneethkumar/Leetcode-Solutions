@@ -10,6 +10,3 @@ class Solution(object):
 nums = [1,2,3,4]
 sol = Solution()
 print(sol.runningSum(nums))
-
-
-        
