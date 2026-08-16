@@ -11,12 +11,4 @@ class Solution(object):
                 nums[left] = nums[i]
                 left+=1
         return left
-
-            
-
-
-
-                
-
-            
-        
+     
