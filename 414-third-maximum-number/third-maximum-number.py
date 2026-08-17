@@ -25,5 +25,3 @@ class Solution(object):
             return third_largest
         else:
             return largest
-
-        
