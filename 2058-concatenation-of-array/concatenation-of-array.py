@@ -6,6 +6,3 @@ class Solution(object):
         """
         nums = nums + nums
         return nums
-obj = Solution()
-nums = [1,2,3]
-print(obj.getConcatenation(nums))
