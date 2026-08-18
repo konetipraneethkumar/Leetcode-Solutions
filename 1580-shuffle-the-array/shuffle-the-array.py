@@ -8,6 +8,7 @@ class Solution(object):
             ans.append(nums[n +i])
         return ans
         
+        
 
         
 
