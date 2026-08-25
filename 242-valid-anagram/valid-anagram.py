@@ -1,9 +1,23 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        s = sorted(s)
-        t = sorted(t)
-        if s == t:
-            return True 
-        
-        return False
-        
+        if len(s) != len(t):
+            return False
+
+        seen = {}
+
+        for char in s:
+            if char in seen:
+                seen[char] += 1
+            else:
+                seen[char] = 1
+
+        for char in t:
+            if char not in seen:
+                return False
+
+            seen[char] -= 1
+
+            if seen[char] < 0:
+                return False
+
+        return True
