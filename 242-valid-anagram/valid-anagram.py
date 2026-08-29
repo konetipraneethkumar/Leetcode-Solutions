@@ -21,3 +21,9 @@ class Solution:
                 return False
 
         return True
+        """ 
+        
+        But This is not my approach my aproach is to sort the both the elements 
+        and check whether both are same or not!
+
+        """
