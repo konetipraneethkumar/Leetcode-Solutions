@@ -16,7 +16,7 @@ class Solution:
             
             l+=1
             r+=1
-            if wSum/k > mSum/k:
+            if wSum > mSum:
                 mSum = wSum
         return mSum/k
 
