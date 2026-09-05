@@ -1,16 +1,16 @@
 class Solution(object):
     def isPalindrome(self, x):
-        num = x
+        
         """
         :type x: int
         :rtype: bool
         """
-        temp = num
+        temp = x
         rev = 0
-        while num > 0:
-            dig = num % 10
+        while x > 0:
+            dig = x % 10
             rev = rev *10 + dig
-            num = num //10
+            x = x //10
         if temp == rev:
             return True
         return False
