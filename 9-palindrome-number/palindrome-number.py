@@ -1,22 +1,9 @@
-class Solution(object):
-    def isPalindrome(self, x):
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        x = str(x)
         
-        """
-        :type x: int
-        :rtype: bool
-        """
-        temp = x
-        rev = 0
-        while x > 0:
-            dig = x % 10
-            rev = rev *10 + dig
-            x = x //10
-        if temp == rev:
+        rev = x[::-1]
+        if x  == rev:
             return True
         return False
-            
-            
-
-            
-
         
