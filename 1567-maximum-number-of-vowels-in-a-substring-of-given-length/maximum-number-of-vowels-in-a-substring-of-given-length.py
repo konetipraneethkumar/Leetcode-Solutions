@@ -5,7 +5,7 @@ class Solution(object):
         :type k: int
         :rtype: int
         """
-        vowels = {'a', 'e', 'i', 'o', 'u'}
+        vowels = ('a', 'e', 'i', 'o', 'u')
 
         count = 0
 
