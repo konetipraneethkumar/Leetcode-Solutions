@@ -8,6 +8,7 @@ class Solution:
                 return val
         return
         """
+        # Boyer–Moore Voting Algorithm.
         candidate = None
         count = 0
 
