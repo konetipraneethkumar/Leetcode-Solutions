@@ -9,8 +9,8 @@ class Solution:
         """
         Do not return anything, modify head in-place instead.
         """
-        #if not head or not head.next:
-            #return
+        if not head or not head.next:
+            return
 
         # 1. Find the middle of the linked list
         slow = head
